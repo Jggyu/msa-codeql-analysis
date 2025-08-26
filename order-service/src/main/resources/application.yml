@@ -1,0 +1,13 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: order-service
+
+user-service:
+  url: http://localhost:8080
+
+logging:
+  level:
+    com.example.orderservice: DEBUG
